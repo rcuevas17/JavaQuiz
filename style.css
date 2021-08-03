@@ -1,0 +1,50 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    width: 80vw;
+    height: 75vh;
+    padding: 0;
+    margin: 0;
+}
+
+.questions {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.li-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+    margin: 10px;
+}
+.btn {
+    background-color: #301934;
+    color: white;
+    padding: 5px 10px;
+    outline: none;
+}
+
+.control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start-btn, .score-btn {
+    font-size: larger;
+    font-weight: bold;
+}
